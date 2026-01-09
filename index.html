@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Horoscope</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔮 Daily Horoscope</h1>
+    <p>Enter your name initial (A–Z)</p>
+
+    <input type="text" id="initial" maxlength="1">
+    <br><br>
+    <button onclick="showHoroscope()">Get Horoscope</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
